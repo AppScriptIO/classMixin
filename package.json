@@ -2,6 +2,9 @@
     "name": "@dependency/classMixin",
     "version": "1.0.0",
     "main": "./entrypoint/programmaticAPI",
+    "scripts": {
+        "buildAndRelease": "yarn run scriptManager shouldCompileScript=true JSProject/buildAndRelease \".moduleProject({})\""
+    },
     "dependencies": {
         "mixwith": "*"
     },
